@@ -11,16 +11,21 @@
   div {
     font-size: 14px;
     border: 2px solid red;
-    max-width: 800px;
   }
   .container {
+    /* max-width: 800px; */
     display: grid;
-    grid-template-columns: .5fr 2fr .25fr 2fr .5fr;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
   }
   .itemL {
     grid-column-start: 2;
   }
   .itemR {
-    grid-column-start: 3;
+    grid-column-start: 4;
   }
+}
+
+.inner{
+  display: grid;
+  grid
 }
