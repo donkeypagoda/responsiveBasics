@@ -1,4 +1,4 @@
-@@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   div {
     font-size: 24px;
     border: 2px solid green;
@@ -6,7 +6,7 @@
   }
 }
 
-@@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 601px) {
   div {
     font-size: 14px;
     border: 2px solid red;
