@@ -1,11 +1,21 @@
-@@media only screen and (min-width: 480px) {
-
+@@media only screen and (max-width: 600px) {
+  div {
+    font-size: 24px;
+    border: 2px solid green;
+    text-align: center;
+  }
 }
 
-@@media only screen and (min-width: 640px) {
-
+@@media only screen and (min-width: 601px) {
+  div {
+    font-size: 14px;
+    border: 2px solid red;
+  }
 }
-.container {
-  /* border: 2px solid red; */
+/* div {
+  font-size: 24px;
+  border: 2px solid blue;
+} */
+/* .container {
   display: grid;
-}
+} */
