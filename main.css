@@ -3,6 +3,11 @@ img{
   vertical-align: middle;
   /* line-height: 0px; */
 }
+.top{
+  background-color: tan;
+  grid-column: 1/-1;
+
+}
 @media only screen and (max-width: 600px) {
   div {
     /* font-size: 24px; */
