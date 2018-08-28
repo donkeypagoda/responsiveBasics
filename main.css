@@ -7,12 +7,20 @@
 }
 
 @media only screen and (min-width: 601px) {
+
   div {
     font-size: 14px;
     border: 2px solid red;
+    max-width: 800px;
   }
-}
-
-.container {
-  display: grid;
+  .container {
+    display: grid;
+    grid-template-columns: .5fr 2fr .25fr 2fr .5fr;
+  }
+  .itemL {
+    grid-column-start: 2;
+  }
+  .itemR {
+    grid-column-start: 3;
+  }
 }
