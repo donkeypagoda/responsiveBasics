@@ -20,10 +20,39 @@ h1{
 }
 
 @media only screen and (min-width:441px) and (max-width: 780px) {
-  div{
+  div {
     /* border: 2px solid blue; */
     text-align: center;
   }
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .inner{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .thumb{
+    grid-column: 1/1;
+    /* height: 160px;
+    width: 240px; */
+  }
+  .title{
+    display: table;
+    grid-column-start: 2;
+    height: 100%;
+    line-height: 100%;
+    margin-left: 5px;
+  }
+  h3 {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .content{
+    grid-row-start: 2;
+    grid-column: 1/-1;
+  }
+
 }
 
 @media only screen and (min-width: 781px) {
